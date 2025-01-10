@@ -51,6 +51,42 @@ Simetricos: Cortos y "ligeros"
 2. Se cifran los dados simtericamente con la clave de sesion  y se mandan  
 2.5  Se cifra la clave de sesion con la clave  publica del receptor  para que el la descifre con SU privada  y utilizarla para descifrar los datos
 
+# Certificados Digitales
 
+Acreditan una entidad es quien dice ser, Utilizan otras entidades con una cierta reputacion para ello. DIGICERT
 
-  
+Un certificado es basicamente un documento que contiene:Los dadis de una entidad o persona, su clave publica y la firma digital de una empresa certificadora
+
+**PKI** es la estructura que define esto
+
+Autoridad certificadora **CA**: emite certificados
+Autoridad de Registro **RA**: Sucursales de lo anterior
+
+**CA RAIZ** son los que estan autofirmados por entidades certificadoras
+
+Tipos **CA**: Comerciales, Gubernamentales,Open SOurce,Propios de una entidad y Autofirmado
+
+## SSL/TLS
+
+Establece un canal seguro en el nivel de transporte entre dos partes
+
+Certificacion Mutua
+**En la simple solo se autentica el servidor**
+
+1. El cliente solicita una conexión segura, y envía al servidor una lista de los cifrados y hash que el navegador soporta,
+así como un número aleatorio y la versión del protocolo que desea usar.
+2. El servidor responde con la versión de protocolo que se usará en relación con la recibida por el cliente, así como el
+método de cifrado y hash que se usará.
+3. El servidor envía a continuación su certificado al cliente . El cliente comprobará la validez del certificado, comprobando
+su firma y el CA correspondiente.
+4. El servidor solicita al cliente que envíe su certificado. El cliente envía su certificado al servidor, y este lo verificará
+comprobando su firma y el CA correspondiente.
+5. El cliente envía al servidor una prekey cifrada con la clave publica del servidor .
+6. El cliente firma (resumido y cifrado con su clave privada) los mensajes de negociación previos. El servidor verificará
+esto con la clave pública del cliente.
+7. El cliente y el servidor generan la Key para el cifrado simétrico que van a usar gracias al número aleatorio generado al
+comienzo y a la prekey.
+8. El cliente envía un mensaje de finalización cifrado conteniendo el hash de los mensajes de la negociación y otros datos.
+9. El servidor descifrará el mensaje y validará los hash.
+10.El servidor enviará un mensaje de finalización cifrado conteniendo el hash de los mensajes de negociación y otros datos.
+11. El cliente descifrará el mensaje y los validará
