@@ -13,10 +13,10 @@ Son reglas aplicadas a routers y switches para filtrar tráfico basado en direcc
 
 **Tipos de ACL:**
 
-ACL estándar: Filtran solo por dirección IP de origen.
-ACL extendidas: Filtran por dirección IP, protocolo y puerto.
-ACL nombradas: Permiten mayor flexibilidad y edición.
-Ejemplo de configuración de ACL en Cisco:
+ACL estándar: Filtran solo por dirección IP de origen.  
+ACL extendidas: Filtran por dirección IP, protocolo y puerto.  
+ACL nombradas: Permiten mayor flexibilidad y edición.  
+Ejemplo de configuración de ACL en Cisco:  
 
     access-list 110 deny tcp 192.168.1.0 0.0.0.255 any eq 23
     access-list 110 permit ip any any
