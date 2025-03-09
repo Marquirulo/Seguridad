@@ -115,38 +115,37 @@ Estará cifrada por una simétrica generada entre ambas partes
 Crear una dirección virtual si quieres distinguir el tráfico (no se escucha más)
 
 # 22.	En qué escenario de comunicación 802.11 … el término halfduplex 
-(no puede …)
+Pueden transmiti y escuchar pero no hacerlo simultaneamente
 
 # 23.	Que caracteriza la trama 802.11 frente a la ethernet normal
 Que tiene múltiples tipos de trama
 
 # 24.	Que protocolo se ha desarrollado para mejorar la itinerancia en redes inalámbricas en … standard 
-(no dice la respuesta solo lee las incorrectas)
+IAPP
 
- 
 # 25.	Como se conectan … los AP a la red para simplificar la instalación
-(no se escucha la respuesta)
+POE
 
-# 26.	En una red de infraestructura … ¿poseen dominar? un conjunto de dos o más BSS interconectadas
-(tampoco se escucha)
+# 26.	En una red de infraestructura que uno dos o mas BSS interconectadas
+ESS
 
-# 27.	Cual es la función principal del protocolo ¿CSMACD? En la red WLAN
-Acceso al medio con detección … y conexiones evitadas.
+# 27.	Cual es la función principal del protocolo CSMA/CA En la red WLAN
+Acceso al medio con detección … Evitar colisiones (CARRIER SENSE MULTIPLE ACCESS/COLISION AVOIDANCE)
 
-# 28.	Quien ha asignación de … a nivel internacional 
-La ¿UIT?
+# 28.	Quien ha asignación del espectro radioelectrico a nivel internacional 
+UIT(Internation telecommunication Union )
 
 # 29.	Que tipo de antena tiene la mejor ganancia 
 Parabólicas
 
 # 30.	Cuál es la velocidad máxima teórica del standard wifi 6
-9.9Gbs
+9.6Gbs
 
 # 31.	Cuál de las siguientes tecnologías inalámbricas tiene mayor rango de cobertura
-WWAN
+WWAN (5G,GSM,UMTS)
 
 # 32.	Que función desempeña el WDS en una red de infraestructura
-Unir dos o más ¿BS?
+Unir dos o más ESS BSS | Es la red inalambrica que interconecta dos o mas ESS
 
 # 33.	Dime cual  de las siguientes es cierta
 (Marcos dice que se acordó de una tablita así que él sabrá lo que era)
