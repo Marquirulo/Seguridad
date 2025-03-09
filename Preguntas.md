@@ -60,10 +60,13 @@ ARP inspection o Dynamic ARP inspection DAI
 Porque detectes que hay DHCP Request de varios servidores diferentes con distinta información
 
 # 5.	Se han ejecutado los siguientes parámetros switchport port security (cuando salia el mensaje de comando rechazado porque es un puerto dinámico)
-Ponerlo en modo Access de forma estática.
+Ponerlo en modo Access de forma estática.  
+![image](https://github.com/user-attachments/assets/8bb53bc5-59c5-4169-b389-f2d520f02b87)
 
 # 6.	Que ventaja ofrece a la utilización ¿arp? Inspection
-Verificar la autenticidad de los mensajes mediante dhcp
+Verificar la autenticidad de los mensajes mediante dhcp,  
+verificar que los mensajes de arp reply son del VERDADERO router confiable
+Evitar ARP posining or spoofing
 
 # 7.	Dada las siguientes definiciones describe mejor el IP Spoofing (cuando jugabas con IP`s  falsas)
 (no se escucha la respuesta)
