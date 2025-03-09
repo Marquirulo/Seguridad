@@ -23,7 +23,8 @@
 # Que funcion realiza el WDS 
    La red que interconecta APs se denominan DS si el DS es inalambrico se denomina WDS
 # La tabla de HSRP
-  El VRP y HSRP son tolerantes a fallos y el  otro premite valanceo e carga
+  El VRP y HSRP son tolerantes a fallos y el  otro premite valanceo e carga  
+  SOLO GLBP TIENE BALANCEO DE CARGA Y ES PROPIETARIO DECISCO
 # Pregunta con imagen de HSRP
   El router A por que tiene mayor prioridad
 # PARTE DE PREGUTAS ESCRITAS
@@ -42,13 +43,18 @@
   Porque aparece en verde los 60dbm
 
 # 1.	Se ejecutan los siguientes comandos en un switch cada uno, que ocurre cuando una dirección mac XXX intenta conectar
-Se le permite la conexión (no estoy seguro)
+Se le permite la conexión (no estoy seguro)  
+Port security con MAC del equipo se le permite la conexion 
 
 # 2.	La tabla DHCP SNOOPING table es una tabla que:
-Contiene una asignación que…
+Contiene una asignación de IPs y por que interfaz  
+Esta tabla aknacebalos datos de concesiones optenidos por un servidor confiable.
 
 # 3.	Que solución ayuda a prevenir la suplantación de ARP…
-El DHCP contiene la tabla y luego el DAI apoyándose en esa tabla no daría…
+El DHCP contiene la tabla y luego el DAI apoyándose en esa tabla no daría…  
+Comparar la info de los ARP que recibe con la DHCP binding table  
+Activar el DHCP snooping  
+ARP inspection o Dynamic ARP inspection DAI
 
 # 4.	Suponiendo que … en una red como podríamos detectar que se está produciendo un ataque al servidor DHCP …
 Porque detectes que hay DHCP Request de varios servidores diferentes con distinta información
