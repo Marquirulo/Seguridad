@@ -8,10 +8,10 @@
   POE
 # Dos o mas BSS
   ESS
-# Funcion principal del protocolo ACLS / CA en las redes WLAN 
-  Evitar colisiones
+# Funcion principal del protocolo CSMA / CA en las redes WLAN 
+  Evitar colisiones (CARRIER SENSE MULTIPLE ACCESS/COLISION AVOIDANCE)
 # Organismo radielectrico internacional
-
+   UIT(Internation telecommunication Union )
 # Antenas con mayor ganancia
   Parabolicas
 # Velocidad maxima teorica de wifi 6
@@ -19,9 +19,9 @@
 # Tecnologias inalambricas mayor rango de covertura
   WWAN
 # Que tipo de *ILEGIBLE*
-  WPAN
+  WPAN (Personal)
 # Que funcion realiza el WDS 
-
+   La red que interconecta APs se denominan DS si el DS es inalambrico se denomina WDS
 # La tabla de HSRP
   El VRP y HSRP son tolerantes a fallos y el  otro premite valanceo e carga
 # Pregunta con imagen de HSRP
