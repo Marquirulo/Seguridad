@@ -38,7 +38,7 @@
 
   Pregunta de WIFI-MAN
   Cual Es su SSID (La Mac de la imagen)
-  Ancho de banda
+  Ancho de banda: 5Ghz | 80Mhz (Restar el rango que aparece en la imagen para tener ancho del canal(80Megaherzios))
   Que significa BSSID: Basic Service Set Identifier (BSS Identifier)
   Porque aparece en verde los 60dbm: La potencia recibida es optima, apartir de 80dbm empieza a ser considerada conexion poco optima y a partir de      90dBm es practicamente inservible.
 
