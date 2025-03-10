@@ -59,7 +59,7 @@ Activar el DHCP snooping
 ARP inspection o Dynamic ARP inspection DAI
 
 # 4.	Suponiendo que … en una red como podríamos detectar que se está produciendo un ataque al servidor DHCP …
-Porque detectes que hay DHCP Request de varios servidores diferentes con distinta información
+Porque detectes que hay DHCP Reply de varios servidores diferentes con distinta información
 
 # 5.	Se han ejecutado los siguientes parámetros switchport port security (cuando salia el mensaje de comando rechazado porque es un puerto dinámico)
 Ponerlo en modo Access de forma estática.  
@@ -86,9 +86,8 @@ Evitar ARP posining or spoofing
 Necesita la clave pública. (tienes que haberte generado tu pareja de claves publico privada antes) Le envía la solicitud firmada el CA
 
 # 12.	Cuántas claves públicas o privadas pide un certificado SSL
-Una
+Una...
 
- 
 # 13.	Estoy registrado con una clave en un sitio web de alquiler de apartamentos pero he perdido la clave y pido que me la reenvíen por correo
 Deberían hacer que resetearas la clave y poner un password nuevo  
 (No tienen tu clave directamente, tienen un HASH de tu pass almacenado)
@@ -96,7 +95,7 @@ Deberían hacer que resetearas la clave y poner un password nuevo
 # 14.	Que es el Passphrase
 frase o secuencia de palabras que se utiliza para autenticar o cifrar información
 
-# 15.	Las ¿PKI? son las siglas de:
+# 15.	Las PKI son las siglas de:
 Public Key Infraestructure  
 PKI define toda la infraestructura necesaria para utilizar certificados a nivel nacional
 
